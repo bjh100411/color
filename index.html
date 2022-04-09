@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>next page</title>
+</head>
+<body>
+<h1 id="hello_word">hello word</h1>
+<script>
+    document.querySelector('#hello_word').style.color = 'red'
+</script>
+<input id="left" type="button" value="&lt" onclick="
+    if(document.querySelector('#hello_word').style.color === 'black') {
+        document.querySelector('#hello_word').style.color = 'purple';
+    }
+    else {
+        if(document.querySelector('#hello_word').style.color === 'purple') {
+            document.querySelector('#hello_word').style.color = 'blue';
+        }
+        else {
+            if(document.querySelector('#hello_word').style.color === 'blue') {
+                document.querySelector('#hello_word').style.color = 'aqua';
+            }
+            else {
+                if(document.querySelector('#hello_word').style.color === 'aqua') {
+                    document.querySelector('#hello_word').style.color = 'green';
+                }
+                else {
+                    if(document.querySelector('#hello_word').style.color === 'green') {
+                        document.querySelector('#hello_word').style.color = 'yellow';
+                    }
+                    else {
+                        if(document.querySelector('#hello_word').style.color === 'yellow') {
+                            document.querySelector('#hello_word').style.color = 'orange';
+                    }
+                        else {
+                            if(document.querySelector('#hello_word').style.color === 'orange') {
+                                document.querySelector('#hello_word').style.color = 'red';
+                            }
+                            else {
+                                document.querySelector('#hello_word').style.color = 'red';
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }">
+<input id="right" type="button" value="&gt" onclick="
+    if(document.querySelector('#hello_word').style.color === 'purple') {
+        document.querySelector('#hello_word').style.color = 'black';
+    }
+    else {
+        if(document.querySelector('#hello_word').style.color === 'blue') {
+            document.querySelector('#hello_word').style.color = 'purple';
+        }
+        else {
+            if(document.querySelector('#hello_word').style.color === 'aqua') {
+                document.querySelector('#hello_word').style.color = 'blue';
+            }
+            else {
+                if(document.querySelector('#hello_word').style.color === 'green') {
+                    document.querySelector('#hello_word').style.color = 'aqua';
+                }
+                else {
+                    if(document.querySelector('#hello_word').style.color === 'yellow') {
+                        document.querySelector('#hello_word').style.color = 'green';
+                    }
+                    else {
+                        if(document.querySelector('#hello_word').style.color === 'orange') {
+                            document.querySelector('#hello_word').style.color = 'yellow';
+                        }
+                        else {
+                            if(document.querySelector('#hello_word').style.color === 'red') {
+                                document.querySelector('#hello_word').style.color = 'orange';
+                            }
+                            else {
+                                document.querySelector('#hello_word').style.color = 'black';
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }">
+<input id="search" type="search" value="" onkeyup="
+    if(document.querySelector('#search').value === 'red') {
+        document.querySelector('#hello_word').style.color = 'red';
+    }
+    else {
+        if(document.querySelector('#search').value === 'orange') {
+            document.querySelector('#hello_word').style.color = 'orange';
+        }
+        else {
+            if(document.querySelector('#search').value === 'yellow') {
+                document.querySelector('#hello_word').style.color = 'yellow';
+            }
+            else {
+                if(document.querySelector('#search').value === 'green') {
+                    document.querySelector('#hello_word').style.color = 'green';
+                }
+                else {
+                    if(document.querySelector('#search').value === 'aqua') {
+                        document.querySelector('#hello_word').style.color = 'aqua';
+                    }
+                    else {
+                        if(document.querySelector('#search').value === 'blue') {
+                            document.querySelector('#hello_word').style.color = 'blue';
+                        }
+                        else {
+                            if(document.querySelector('#search').value === 'purple') {
+                                document.querySelector('#hello_word').style.color = 'purple';
+                            }
+                            else {
+                                if(document.querySelector('#search').value === 'black') {
+                                    document.querySelector('#hello_word').style.color = 'black';
+                                }
+                                else {
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }">
+<br>
+    <input id="red" type="button" value="red" onclick="
+    document.querySelector('#hello_word').style.color = 'red';">
+    <input id="orange" type="button" value="orange" onclick="
+    document.querySelector('#hello_word').style.color = 'orange';">
+    <input id="yellow" type="button" value="yellow" onclick="
+    document.querySelector('#hello_word').style.color = 'yellow';">
+    <input id="green" type="button" value="green" onclick="
+    document.querySelector('#hello_word').style.color = 'green';">
+<br>
+    <input id="aqua" type="button" value="aqua" onclick="
+    document.querySelector('#hello_word').style.color = 'aqua';">
+    <input id="blue" type="button" value="blue" onclick="
+    document.querySelector('#hello_word').style.color = 'blue';">
+    <input id="purple" type="button" value="purple" onclick="
+    document.querySelector('#hello_word').style.color = 'purple';">
+    <input id="black" type="button" value="black" onclick="
+    document.querySelector('#hello_word').style.color = 'black';">
+    <script>
+        document.querySelector('#red').style.background = 'red';
+        document.querySelector('#orange').style.background = 'orange';
+        document.querySelector('#yellow').style.background = 'yellow';
+        document.querySelector('#green').style.background = 'green';
+        document.querySelector('#aqua').style.background = 'aqua';
+        document.querySelector('#blue').style.background = 'blue';
+        document.querySelector('#purple').style.background = 'purple';
+        document.querySelector('#black').style.background = 'black';
+        document.querySelector('#red').style.color = 'white';
+        document.querySelector('#orange').style.color = 'white';
+        document.querySelector('#yellow').style.color = 'white';
+        document.querySelector('#green').style.color = 'white';
+        document.querySelector('#aqua').style.color = 'white';
+        document.querySelector('#blue').style.color = 'white';
+        document.querySelector('#purple').style.color = 'white';
+        document.querySelector('#black').style.color = 'white';
+    </script>
+</body>
+</html>
